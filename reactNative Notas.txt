@@ -1,0 +1,37 @@
+Importante: Usar nodejs menor a la version 17.
+
+actualizar uuid
+npm install uuid@latest
+
+Documentación en las siguientes páginas:
+    reactnative.dev - expo.dev
+
+instalacion expo
+    Comandos Expo CLI:
+    Instalar expo
+    -> npm install -g expo-cli
+    Actualizar módulo de inicializacion
+    -> npm i create-expo-app
+    Verificar version
+    -> expo --version
+
+Crear proyecto
+    -> npx create-expo-app nombreproyecto
+	cd nombreproyecto
+
+Para visualizar en puerto por navegador instalar módulos:
+    -> npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+
+Ejecutar proyecto
+    
+    -> npx expo start
+     ó
+    -> npm run web
+
+Otros comandos:
+    Actualizar librerias
+    -> npx expo install expo-updates
+    Reinstalar modulos de package.json
+    -> npm i
+
+
